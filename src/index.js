@@ -1,6 +1,5 @@
 const puppeteer = require("puppeteer");
 const Spinner = require('cli-spinner').Spinner;
-
 const selectLanguageFromDropdown = require("./translations")
   .selectLanguageFromDropdown;
 const inputOutput = require("./translations").inputOutput;
