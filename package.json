@@ -1,0 +1,33 @@
+{
+  "name": "test-ghactions",
+  "version": "1.2.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "commander": "^6.1.0",
+    "cli-spinner": "^0.2.10",
+    "fs-extra": "^9.0.1",
+    "mkdirp": "^1.0.4",
+    "jsonfile": "^6.0.1",
+    "path": "^0.12.7",
+    "puppeteer": "^5.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CO16358SUKHLEEN/testing-ghAction.git"
+  },
+  "keywords": [
+    "test",
+    "testing"
+  ],
+  "author": "sukhleen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CO16358SUKHLEEN/testing-ghAction/issues"
+  },
+  "homepage": "https://github.com/CO16358SUKHLEEN/testing-ghAction#readme"
+}
