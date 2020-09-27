@@ -2,7 +2,7 @@
   "name": "test-ghactions",
   "version": "1.2.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/bin/index.js",
   "dependencies": {
     "commander": "^6.1.0",
     "cli-spinner": "^0.2.10",
@@ -11,6 +11,9 @@
     "jsonfile": "^6.0.1",
     "path": "^0.12.7",
     "puppeteer": "^5.3.0"
+  },
+  "bin": {
+    "play": "src/bin/index.js"
   },
   "devDependencies": {},
   "scripts": {

@@ -1,14 +1,15 @@
+#!/usr/bin/env node
 const puppeteer = require("puppeteer");
 const path = require("path");
 const Spinner = require("cli-spinner").Spinner;
-const selectLanguageFromDropdown = require("./translations")
+const selectLanguageFromDropdown = require("../translations")
   .selectLanguageFromDropdown;
-const inputOutput = require("./translations").inputOutput;
-const getTranslations = require("./translations").getTranslations;
-const readJSONkeys = require("./filesystem").readJSONKeys;
-const writeJSONKeys = require("./filesystem").writeJSONKeys;
-const fetchConfig = require("./bin/cli");
-const lang = require("./LanguagesEnum/LanguagesEnum");
+const inputOutput = require("../translations").inputOutput;
+const getTranslations = require("../translations").getTranslations;
+const readJSONkeys = require("../filesystem").readJSONKeys;
+const writeJSONKeys = require("../filesystem").writeJSONKeys;
+const fetchConfig = require("./cli");
+const lang = require("../LanguagesEnum/LanguagesEnum");
 
 const main = async () => {
   const config = await fetchConfig();
