@@ -1,10 +1,10 @@
-name: "testing-ghaction"
+name: "@k_sukhleen/test-ghactions"
 
 on: [push]
 
 jobs:
     release: 
-        name: testing-ghaction
+        name: @k_sukhleen/test-ghactions
         runs-on: ubuntu-latest
         steps:
             - name: checkout

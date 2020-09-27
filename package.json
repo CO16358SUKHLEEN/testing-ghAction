@@ -1,5 +1,5 @@
 {
-  "name": "test-ghactions",
+  "name": "@k_sukhleen/test-ghactions",
   "version": "1.2.0",
   "description": "",
   "main": "src/bin/index.js",
